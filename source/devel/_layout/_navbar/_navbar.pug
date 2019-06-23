@@ -1,0 +1,38 @@
+mixin logo()
+	a(href="#", target="_blank").logo Gustoso
+
+mixin menu()
+	ul.menu
+		li.menu__
+			a(href="#").menu__link Welcome
+		li.menu__
+			a(href="#").menu__link Menu
+		li.menu__
+			a(href="#").menu__link reservations
+		li.menu__
+			a(href="#").menu__link News
+		li.menu__
+			a(href="#").menu__link Contact
+
+mixin social()
+	ul.social
+		li.social__
+			a(href="#", target="_blank").social__icon
+				+twitter()
+		li.social__
+			a(href="#", target="_blank").social__icon
+				+facebook()
+		li.social__
+			a(href="#", target="_blank").social__icon
+				+instagram()
+
+
+mixin navbar()
+	.navbarWrapper
+		nav.navbar
+			.navbar__.navbar__logo
+				+logo()
+			.navbar__.navbar__menu
+				+menu()
+			.navbar__.navbar__social
+				+social()
