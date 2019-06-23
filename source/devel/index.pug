@@ -4,7 +4,14 @@ block body
 		.wrapper__.wrapper__header
 			.wrapper__headrNavbar
 				+navbar()
-			.wrapper__headerContent Content
+			.wrapper__headerContent
+				.headerContent
+					.headerContent__title Pastry with love
+						+dashLine().headerContent__titleLine
+					p.headerContent__desc We’re bringing you fresh ingredients every
+						br
+						| day in ways you can’t resist.
+					button(type="button").headerContent__button Our Menu
 		.wrapper__.wrapper__block1 123
 		.wrapper__.wrapper__block2 123
 		.wrapper__.wrapper__block3 123

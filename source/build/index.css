@@ -154,6 +154,42 @@
   font-style: normal;
   src: url("./font/ProximaNova/ProximaNova-BlackIt.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-BlackIt.woff") format("woff"); }
 
+@font-face {
+  font-family: "PlayfairDisplay-Black";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./font/PlayfairDisplay/PlayfairDisplay-Black.woff2") format("woff2"), url("./font/PlayfairDisplay/PlayfairDisplay-Black.woff") format("woff"); }
+
+@font-face {
+  font-family: "PlayfairDisplay-BlackItalic";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./font/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff2") format("woff2"), url("./font/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: "PlayfairDisplay-Bold";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./font/PlayfairDisplay/PlayfairDisplay-Bold.woff2") format("woff2"), url("./font/PlayfairDisplay/PlayfairDisplay-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "PlayfairDisplay-BoldItalic";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./font/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff2") format("woff2"), url("./font/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: "PlayfairDisplay-Italic";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./font/PlayfairDisplay/PlayfairDisplay-Italic.woff2") format("woff2"), url("./font/PlayfairDisplay/PlayfairDisplay-Italic.woff") format("woff"); }
+
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./font/PlayfairDisplay/PlayfairDisplay-Regular.woff2") format("woff2"), url("./font/PlayfairDisplay/PlayfairDisplay-Regular.woff") format("woff"); }
+
 html {
   font-size: 16px; }
 
@@ -298,7 +334,6 @@ svg {
     -ms-flex-negative: 1;
     flex-shrink: 1; }
   .wrapper__headerContent {
-    padding: 1.5vw;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -310,7 +345,10 @@ svg {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    background-image: -webkit-radial-gradient(center, circle 30em, #564f4c 0%, rgba(86, 83, 76, 0) 100%);
+    background-image: -o-radial-gradient(center, circle 30em, #564f4c 0%, rgba(86, 83, 76, 0) 100%);
+    background-image: radial-gradient(circle 30em at center, #564f4c 0%, rgba(86, 83, 76, 0) 100%); }
 
 .wrapper__block1 {
   background-image: -webkit-linear-gradient(225deg, #c4b9ae 0%, #ffffff 100%);
@@ -328,3 +366,47 @@ svg {
 
 .wrapper__footer {
   background-color: #f3f1e9; }
+
+.headerContent {
+  color: #fff;
+  text-align: center;
+  padding: 1.5vw; }
+
+.headerContent__title {
+  text-shadow: 0 1px 0 #3d3029;
+  color: #ffffff;
+  font-family: "PlayfairDisplay-Regular";
+  font-size: 92px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 6.9px; }
+  .headerContent__titleLine {
+    display: block;
+    margin: auto;
+    fill: #fff;
+    height: 10px;
+    margin-top: 60px; }
+
+.headerContent__desc {
+  text-shadow: 0 1px 0 #3d3029;
+  color: #ffffff;
+  font-family: "ProximaNova-Light";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 2.6px;
+  margin: 60px 0; }
+
+.headerContent__button {
+  font-family: "Alegreya-Regular";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4.2px;
+  border: 1px dashed #9e9c93;
+  color: #fff;
+  background-color: rgba(85, 82, 76, 0.5);
+  padding: 12px 45px;
+  outline: none;
+  cursor: pointer; }
