@@ -1,0 +1,44 @@
+mixin tastesSoGood()
+	.tastesSoGood
+		.tastesSoGood__
+			+adaptiveSquare().tastesSoGood__adaptiveSquare
+				.tastesSoGood__image
+					img(src="./pictures/art_of_cakes_img1.png", alt="")
+		.tastesSoGood__
+			+adaptiveSquare().tastesSoGood__adaptiveSquare
+				.tastesSoGood__image
+					img(src="./pictures/art_of_cakes_img2.png", alt="")
+		.tastesSoGood__
+			+adaptiveSquare().tastesSoGood__adaptiveSquare
+				.tastesSoGood__image
+					img(src="./pictures/art_of_cakes_img3.png", alt="")
+		.tastesSoGood__
+			+adaptiveSquare().tastesSoGood__adaptiveSquare
+				.tastesSoGood__image
+					img(src="./pictures/art_of_cakes_img4.png", alt="")
+		+adaptiveSquare().tastesSoGood__text
+			.tastesSoGood__textContent TASTES SO GOOD!
+
+
+mixin chefCook()
+	.chefCook
+		.chefCook__title Chef Cook
+		.chefCook__author
+			.chefCook__authorFirtName Benito
+			img(src="./pictures/avatar.png", alt="").chefCook__authorAvatar
+			.chefCook__authorlastName Gaspare
+		bloquote.chefCook__cite Unique creations for unique
+			br
+			|occasions.
+
+
+mixin block_1()
+	.block1
+		.block1__.block1__left
+			.block1__header
+				+blockHeader("Art of cakes","we create delicious memories")
+			.block1__desc Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.
+			.block1__chefCook
+				+chefCook()
+		.block1__.block1__right
+			+tastesSoGood()

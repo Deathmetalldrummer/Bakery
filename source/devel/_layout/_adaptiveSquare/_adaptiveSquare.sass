@@ -1,0 +1,13 @@
+=adaptiveSquare($height: 100%, $width: 100%)
+	$height: $height / ($height * 0 + 1)
+	$width: $width / ($width * 0 + 1)
+	width: $width * 1%
+	height: 0
+	padding-top: (($height / 100) * $width) * 1%
+	position: relative
+	>div
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0

@@ -12,8 +12,13 @@ block body
 						br
 						| day in ways you can’t resist.
 					button(type="button").headerContent__button Our Menu
-		.wrapper__.wrapper__block1 123
-		.wrapper__.wrapper__block2 123
-		.wrapper__.wrapper__block3 123
-		.wrapper__.wrapper__block4 123
-		.wrapper__.wrapper__footer 123
+		.wrapper__.wrapper__block1
+			+block_1()
+		.wrapper__.wrapper__block2
+			+block_2()
+		.wrapper__.wrapper__block3
+			+block_3()
+		.wrapper__.wrapper__block4
+			+block_4()
+		.wrapper__footer
+			+footer()

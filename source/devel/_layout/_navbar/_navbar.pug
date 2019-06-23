@@ -1,5 +1,5 @@
-mixin logo()
-	a(href="#", target="_blank").logo Gustoso
+mixin logo(theme)
+	a(href="#", target="_blank" class= (theme === 'dark') ? 'logo_dark' : null).logo Gustoso
 
 mixin menu()
 	ul.menu
