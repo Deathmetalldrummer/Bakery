@@ -1,0 +1,95 @@
+.slider
+	width: get_w(9)
+	margin: auto
+	display: flex
+	flex-flow: row nowrap
+	position: relative
+.slider__
+	flex-grow: 1
+	flex-shrink: 1
+.slider__image
+	width: get_w(5)
+	background-color: #000
+	position: relative
+	overflow: hidden
+	.slider__img
+		position: absolute
+		top: 0
+		left: 0
+		min-width: 100%
+		min-height: 100%
+	.slider__rating
+		margin-left: 30px
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+.slider__desc
+	width: get_w(7)
+	padding: 80px 60px 60px
+	background-color: #fff
+	.slider__descHeader
+		padding-bottom: 60px
+	.slider__descDesc
+		padding-bottom: 100px
+		color: #56534c
+		font-family: "ProximaNova-Regular"
+		font-size: 14px
+		font-weight: 400
+		line-height: 24px
+		letter-spacing: 1.4px
+	.slider__slide
+.slider__ready
+	position: absolute
+	left: 100%
+	bottom: 100%
+	transform: translateY(80%) translateX(-50%)
+
+
+.ready
+	color: #a47d5e
+	font-family: "Alegreya-Regular"
+	font-size: 18px
+	font-weight: 700
+	text-transform: uppercase
+	padding: 50px
+	background-color: #f5f5f5
+
+.ready__text
+	letter-spacing: 1.8px
+.ready__number
+	color: #dfc691
+	font-size: 92px
+	letter-spacing: 9.2px
+.ready__time
+	color: #979285
+	letter-spacing: 1.8px
+
+
+.rating
+	list-style: none
+	padding: 0
+	margin: 0
+.rating_verical
+.rating__star
+.rating__star_active
+
+
+.sliderControl
+	display: flex
+	flex-flow: row nowrap
+	justify-content: center
+	align-items: center
+.sliderControl__arrow
+	&_left
+	&_right
+.sliderControl__list
+	list-style: none
+	padding: 0
+	margin: 0
+	white-space: nowrap
+.sliderControl__
+	display: inline-block
+	margin: 0	 15px
+.sliderControl__link
+.sliderControl__image
+.sliderControl__arrow

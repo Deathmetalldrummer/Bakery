@@ -1,2 +1,52 @@
+mixin rating()
+	ul.rating.rating_verical
+		li.rating__star.rating__star_active
+			+ratingStar(true)
+		li.rating__star.rating__star_active
+			+ratingStar(true)
+		li.rating__star.rating__star_active
+			+ratingStar(true)
+		li.rating__star.rating__star_active
+			+ratingStar(true)
+		li.rating__star
+			+ratingStar()
+
+mixin sliderControl()
+	.sliderControl
+		.sliderControl__arrow.sliderControl__arrow_left
+			+sliderArrowLeft()
+		ul.sliderControl__list
+			li.sliderControl__
+				a(href="./pictures/perfect_pancakes_slider1.png").sliderControl__link
+					img(src="./pictures/perfect_pancakes_slider1.png", alt="").sliderControl__image
+			li.sliderControl__
+				a(href="./pictures/perfect_pancakes_slider2.png").sliderControl__link
+					img(src="./pictures/perfect_pancakes_slider2.png", alt="").sliderControl__image
+			li.sliderControl__
+				a(href="./pictures/perfect_pancakes_slider3.png").sliderControl__link
+					img(src="./pictures/perfect_pancakes_slider3.png", alt="").sliderControl__image
+		.sliderControl__arrow.sliderControl__arrow_right
+			+sliderArrowRight()
+
+
+mixin slider()
+	.slider
+		.slider__.slider__image
+			img(src="./pictures/perfect_pancakes_slider.png", alt="").slider__img
+			.slider__rating
+				+rating()
+		.slider__.slider__desc
+			.slider__descHeader
+				+blockHeader("Art of cakes","we create delicious memories","left")
+			.slider__descDesc Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.
+			.slider__sliderControl
+				+sliderControl()
+		.slider__.slider__ready
+			.ready
+				.ready__text ready in
+				.ready__number 40
+				.ready__time mins
+			
 mixin block_2()
 	.block_2
+		+slider()
