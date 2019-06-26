@@ -1,2 +1,42 @@
+mixin breakfast()
+	.breakfast
+		.breakfast
+			.breakfast__header
+				+blockHeader("Breakfast","7am Breakfast? we’re open!")
+			ul.breakfast__list
+				li.breakfast__li
+					.breakfast__liName Full breakfast
+					.breakfast__liDesc Duis ut tortor, et risus, vulputate pretium
+					.breakfast__liCost $12.49
+				li.breakfast__li
+					.breakfast__liName Toast & Jam
+					.breakfast__liDesc Suspendisse, tempus, nterdum
+					.breakfast__liCost $4.90
+				li.breakfast__li
+					.breakfast__liName Muffins
+					.breakfast__liDesc Fusce eget dui sodales est
+					.breakfast__liCost $3.95
+					
+
+mixin breakfastMenu()
+	.breakfastMenu
+		.breakfastMenu__head
+			.breakfastMenu__headText
+				span.breakfastMenu__headText_left EST.
+				span.breakfastMenu__headText_right 1893
+			hr.breakfastMenu__headBreakLine
+		.breakfastMenu__title Your morning
+			br
+			| Escape with Flair
+		.breakfastMenu__desc Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
+		.breakfastMenu__btn
+			button READ
+		.breakfastMenu_after
+		.breakfastMenu_before
+	
 mixin block_3()
-	.block_3
+	.block3
+		.block3__.block3__left
+			+breakfast()
+		.block3__.block3__right
+			+breakfastMenu()
