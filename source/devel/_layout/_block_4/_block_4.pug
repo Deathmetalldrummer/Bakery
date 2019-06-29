@@ -1,2 +1,37 @@
 mixin block_4()
-	.block_4
+	.block4
+		.block4__left
+			
+			ul.jibaritoList
+				li.jibaritoList__
+					.jibaritoList__image
+						img(src="./pictures/Jibarito_sandwich_post1.png", alt="")
+					.jibaritoList__title Class aptent
+					.jibaritoList__desc Quot alienum persecuti ut eam, nam ad atqui primis nusquam.
+				li.jibaritoList__
+					.jibaritoList__image
+						img(src="./pictures/Jibarito_sandwich_post12.png", alt="")
+					.jibaritoList__title Nulla eget
+					.jibaritoList__desc Nullam dictum felis eu pede mollis pretium Integer tincidunt.
+				li.jibaritoList__
+					.jibaritoList__image
+						img(src="./pictures/Jibarito_sandwich_post13.png", alt="")
+					.jibaritoList__title Sed nibh purus
+					.jibaritoList__desc  Aenean eleifend tellus leo ligula, porttitor eu, consequat vitae.
+		
+		
+		.block4__right
+			.block4__header
+				+blockHeader("The Jibarito sandwich","the best sandwich you’ve ever tasted!")
+			
+			.jibaritoListRecipe
+				.jibaritoListRecipe__image
+					img(src="./pictures/Jibarito_sandwich.png", alt="")
+				button(type="button").jibaritoListRecipe__fullRecipe FULL RECIPE
+				ul.jibaritoListRecipe__info.recipeInfo
+					.recipeInfo__
+						+readyIn('PREP','15','mins')
+					.recipeInfo__
+						+readyIn('cook','35','mins')
+					.recipeInfo__
+						+readyIn('ready in','50','mins',true)

@@ -1,0 +1,95 @@
+.block4
+	width: 1200px
+	margin: auto
+	display: flex
+	flex-flow: row nowrap
+	justify-content: center
+	align-items: center
+.block4__left
+	width: get_w(4)
+.block4__right
+	width: get_w(8)
+.block4__header
+	display: inline-block
+
+
+
+.jibaritoList
+	list-style: none
+	padding: 0
+	margin: 0
+	font-size: 1rem
+.jibaritoList__
+	text-align: center
+.jibaritoList__image
+	width: 6.250em
+	height: 6.250em
+	margin: auto
+	border-radius: 50%
+	overflow: hidden
+	img
+		display: block
+		min-width: 100%
+		min-height: 100%
+.jibaritoList__title
+	color: #a47d5e
+	font-family: "Alegreya-Regular"
+	font-size: 30px
+	font-weight: 700
+	line-height: 1
+	letter-spacing: 0.75px
+.jibaritoList__desc
+	color: #56534c
+	font-family: "ProximaNova-Regular"
+	font-size: 14px
+	font-weight: 400
+	line-height: 20px
+	letter-spacing: 1.4px
+
+
+
+$jibarito_padding: 10px
+.jibaritoListRecipe
+	position: relative
+	padding: $jibarito_padding
+	background-color: #fff
+	margin: 25px
+	display: flex
+	justify-content: flex-end
+
+.jibaritoListRecipe__image
+	position: absolute
+	top: $jibarito_padding
+	bottom: $jibarito_padding
+	left: $jibarito_padding
+	right: $jibarito_padding
+	overflow: hidden
+	z-index: 99
+.jibaritoListRecipe__fullRecipe
+	position: absolute
+	z-index: 101
+	bottom: 0
+	left: 0
+	margin-bottom: -25px
+	margin-left: -25px
+	padding: 20px 30px
+	background-color: #fff
+	border: 1px dashed #dfc691
+	color: #dfc691
+	font-family: "Alegreya-Regular"
+	font-size: 18px
+	font-weight: 700
+	line-height: 30px
+	text-transform: uppercase
+	letter-spacing: 0.9px
+.jibaritoListRecipe__info
+	position: relative
+	z-index: 100
+	margin-top: -35px !important
+	margin-bottom: -35px !important
+.recipeInfo
+	list-style: none
+	margin: 0
+	padding: 0
+	display: inline-block
+.recipeInfo__
