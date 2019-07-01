@@ -382,19 +382,20 @@ svg {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  position: relative; }
+  position: relative;
+  font-size: 1rem; }
 
 .tastesSoGood__ {
   width: 50%;
   -ms-flex-negative: 1;
   flex-shrink: 1;
-  padding: 10px; }
+  padding: 0.625em; }
 
 .tastesSoGood__image {
   width: 100%;
   height: 100%;
   outline: #fff 5px solid;
-  outline-offset: -10px;
+  outline-offset: -0.625em;
   position: relative;
   overflow: hidden; }
   .tastesSoGood__image img {
@@ -443,15 +444,15 @@ svg {
     align-items: center;
     color: #c9b176;
     font-family: "Alegreya-Regular";
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 1;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.042em;
     padding: 1em;
     border-radius: 50%;
-    -webkit-box-shadow: 0 14px 18px #3b251d;
-    box-shadow: 0 14px 18px #3b251d;
+    -webkit-box-shadow: 0 0.389em 0.222em #3b251d;
+    box-shadow: 0 0.389em 0.222em #3b251d;
     background-image: -webkit-linear-gradient(106deg, rgba(242, 237, 233, 0.96) 0%, rgba(255, 255, 255, 0.96) 100%);
     background-image: -o-linear-gradient(106deg, rgba(242, 237, 233, 0.96) 0%, rgba(255, 255, 255, 0.96) 100%);
     background-image: linear-gradient(-16deg, rgba(242, 237, 233, 0.96) 0%, rgba(255, 255, 255, 0.96) 100%); }
@@ -459,13 +460,13 @@ svg {
 .chefCook {
   font-family: "Alegreya-Regular";
   color: #56534c;
-  font-size: 24px;
-  letter-spacing: 0.6px;
+  font-size: 1.5rem;
+  letter-spacing: 0.025em;
   text-align: center; }
 
 .chefCook__title {
   font-weight: 700;
-  line-height: 30px; }
+  line-height: 1.25em; }
 
 .chefCook__author {
   display: -webkit-box;
@@ -488,15 +489,15 @@ svg {
     border-top: 1px solid #c4b9ae;
     border-bottom: 1px solid #c4b9ae;
     font-weight: 400;
-    line-height: 30px; }
+    line-height: 1.25em; }
 
 .chefCook__cite {
   color: #a47d5e;
   font-family: "Scriptina";
-  font-size: 24px;
+  font-size: 1em;
   font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.6px;
+  line-height: 1.25em;
+  letter-spacing: 0.025em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -530,17 +531,18 @@ svg {
   -ms-flex-positive: 1;
   flex-grow: 1;
   -ms-flex-negative: 1;
-  flex-shrink: 1; }
+  flex-shrink: 1;
+  font-size: 1rem; }
   .block1__left {
     padding: 0 3em; }
 
 .block1__desc {
   color: #56534c;
   font-family: "ProximaNova-Regular";
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 1.4px;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
   text-align: center; }
 
 .slider {
@@ -553,7 +555,8 @@ svg {
   -webkit-box-direction: normal;
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
-  position: relative; }
+  position: relative;
+  font-size: 1rem; }
 
 .slider__ {
   -webkit-box-flex: 1;
@@ -574,7 +577,7 @@ svg {
     min-width: 100%;
     min-height: 100%; }
   .slider__image .slider__rating {
-    margin-left: 30px;
+    margin-left: 1.875em;
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -583,23 +586,25 @@ svg {
 
 .slider__desc {
   width: 58.33333%;
-  padding: 80px 60px 60px;
+  padding: 5em 3.75em 3.75em;
   background-color: #fff; }
   .slider__desc .slider__descHeader {
-    padding-bottom: 60px; }
+    padding-bottom: 3.75em; }
   .slider__desc .slider__descDesc {
-    padding-bottom: 100px;
+    padding-bottom: 6.25em;
     color: #56534c;
     font-family: "ProximaNova-Regular";
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 1.4px; }
+    line-height: 1.714em;
+    letter-spacing: 0.1em; }
 
 .slider__ready {
   position: absolute;
   left: 100%;
   bottom: 100%;
+  -webkit-box-shadow: 0 0 2em 0 #4b4b4b;
+  box-shadow: 0 0 2em 0 #4b4b4b;
   -webkit-transform: translateY(80%) translateX(-50%);
   -ms-transform: translateY(80%) translateX(-50%);
   transform: translateY(80%) translateX(-50%); }
@@ -607,23 +612,23 @@ svg {
 .ready {
   color: #a47d5e;
   font-family: "Alegreya-Regular";
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 50px;
+  padding: 2.778em;
   background-color: #f5f5f5; }
 
 .ready__text {
-  letter-spacing: 1.8px; }
+  letter-spacing: 0.1em; }
 
 .ready__number {
   color: #dfc691;
-  font-size: 92px;
-  letter-spacing: 9.2px; }
+  font-size: 5.111em;
+  letter-spacing: 0.1em; }
 
 .ready__time {
   color: #979285;
-  letter-spacing: 1.8px; }
+  letter-spacing: 0.1em; }
 
 .rating {
   list-style: none;
@@ -643,7 +648,8 @@ svg {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  font-size: 1rem; }
 
 .sliderControl__list {
   list-style: none;
@@ -653,7 +659,7 @@ svg {
 
 .sliderControl__ {
   display: inline-block;
-  margin: 0	 15px; }
+  margin: 0 1em; }
 
 .breakfast {
   text-align: center; }

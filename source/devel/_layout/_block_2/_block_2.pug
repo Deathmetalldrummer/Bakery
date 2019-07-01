@@ -42,11 +42,8 @@ mixin slider()
 			.slider__sliderControl
 				+sliderControl()
 		.slider__.slider__ready
-			.ready
-				.ready__text ready in
-				.ready__number 40
-				.ready__time mins
-			
+			+readyIn("ready in","40","mins",true)
+
 mixin block_2()
 	.block2
 		+slider()
