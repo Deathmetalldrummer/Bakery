@@ -216,16 +216,16 @@ svg {
 
 .blockHeader__title {
   color: #56534c;
-  font-size: 48px;
-  letter-spacing: 1.2px; }
+  font-size: 3em;
+  letter-spacing: 0.025em; }
 
 .blockHeader__desc {
   color: #a47d5e;
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 2.143em;
   text-transform: uppercase;
-  letter-spacing: 1.4px; }
+  letter-spacing: 0.1em; }
 
 .readyIn {
   display: -webkit-inline-box;
@@ -244,32 +244,30 @@ svg {
   vertical-align: middle;
   width: 11.111em;
   height: 11.111em;
-  font-size: 18px;
+  font-size: 1.125em;
   font-family: "Alegreya-Bold";
   font-weight: 700;
   padding: 1em;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.8); }
+  background-color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.1em; }
   .readyIn_complete {
     background-color: #fff; }
     .readyIn_complete .readyIn__time {
       color: #dfc691;
-      font-size: 92px;
-      letter-spacing: 9.2px; }
+      font-size: 5.75em; }
 
 .readyIn__title {
   color: #a47d5e;
-  letter-spacing: 1.8px;
   text-transform: uppercase; }
 
 .readyIn__time {
   color: #56534c;
-  font-size: 60px;
-  letter-spacing: 6px; }
+  font-size: 3.75em;
+  line-height: 1; }
 
 .readyIn__timeUnit {
-  color: #979285;
-  letter-spacing: 1.8px; }
+  color: #979285; }
 
 .navbarWrapper {
   background-color: rgba(85, 82, 76, 0.5); }
@@ -289,10 +287,11 @@ svg {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  font-size: 1rem; }
 
 .navbar__ {
-  padding: 1rem 0; }
+  padding: 1em 0; }
 
 .navbar__menu {
   -webkit-box-flex: 1;
@@ -301,9 +300,9 @@ svg {
 
 .logo {
   font-family: "Scriptina";
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 1;
-  letter-spacing: 9px;
+  letter-spacing: 0.3em;
   color: #fff;
   text-decoration: none; }
   .logo_dark {
@@ -315,11 +314,11 @@ svg {
   padding: 0;
   font-family: "Alegreya-Regular";
   color: #fff;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.714em;
   text-transform: uppercase;
-  letter-spacing: 4.2px;
+  letter-spacing: 0.3em;
   text-align: center; }
 
 .menu__ {
@@ -609,27 +608,6 @@ svg {
   -ms-transform: translateY(80%) translateX(-50%);
   transform: translateY(80%) translateX(-50%); }
 
-.ready {
-  color: #a47d5e;
-  font-family: "Alegreya-Regular";
-  font-size: 1.125em;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 2.778em;
-  background-color: #f5f5f5; }
-
-.ready__text {
-  letter-spacing: 0.1em; }
-
-.ready__number {
-  color: #dfc691;
-  font-size: 5.111em;
-  letter-spacing: 0.1em; }
-
-.ready__time {
-  color: #979285;
-  letter-spacing: 0.1em; }
-
 .rating {
   list-style: none;
   padding: 0;
@@ -662,7 +640,8 @@ svg {
   margin: 0 1em; }
 
 .breakfast {
-  text-align: center; }
+  text-align: center;
+  font-size: 1rem; }
 
 .breakfast__header .blockHeader__title {
   color: #fff; }
@@ -678,34 +657,34 @@ svg {
 .breakfast__liName {
   color: #ffffff;
   font-family: "Alegreya-Regular";
-  font-size: 30px;
+  font-size: 1.875em;
   font-weight: 700;
-  letter-spacing: 1.5px; }
+  letter-spacing: 0.05em; }
 
 .breakfast__liDesc {
-  letter-spacing: 0.8px;
+  font-size: 1em;
   color: #c2beba;
-  font-size: 30px;
   font-family: "ProximaNova-Regular";
-  font-size: 16px;
-  line-height: 30px;
+  letter-spacing: 0.05em;
+  line-height: 1.875em;
   font-weight: 400; }
 
 .breakfast__liCost {
   color: #dfc691;
   font-family: "Alegreya-Regular";
-  font-size: 36px;
+  font-size: 2.250em;
   font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 1.8px; }
+  line-height: 1;
+  letter-spacing: 0.05em; }
 
 .breakfastMenu {
   background-color: #fff;
+  font-size: 1rem;
   padding: 2em;
   text-align: center;
-  -webkit-box-shadow: 7px 0 5px rgba(0, 0, 0, 0.8);
-  box-shadow: 7px 0 5px rgba(0, 0, 0, 0.8);
-  outline: 2px dashed #9e9c93;
+  -webkit-box-shadow: 0.438em 0 0.313em rgba(0, 0, 0, 0.8);
+  box-shadow: 0.438em 0 0.313em rgba(0, 0, 0, 0.8);
+  outline: 0.125em dashed #9e9c93;
   outline-offset: -0.5em; }
 
 .breakfastMenu__headText {
@@ -720,38 +699,38 @@ svg {
   justify-content: space-around;
   color: #56534c;
   font-family: "Alegreya-Regular";
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1.875em;
   text-transform: uppercase;
-  letter-spacing: 0.7px; }
+  letter-spacing: 0.044em; }
 
 .breakfastMenu__title {
   color: #56534c;
   font-family: "Alegreya-Regular";
-  font-size: 44px;
+  font-size: 2.75em;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.1px; }
+  line-height: 1.364;
+  letter-spacing: 0.025em; }
 
 .breakfastMenu__desc {
   color: #56534c;
   font-family: "ProximaNova-Regular";
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.7px; }
+  line-height: 1.875em;
+  letter-spacing: 0.044em; }
 
 .breakfastMenu__btn button {
   padding: 1em 2em;
-  border: 1px solid black;
+  font-size: 1.125em;
+  border: 0.056em solid black;
   color: #a47d5e;
   font-family: "Alegreya-Regular";
-  font-size: 18px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1.667em;
   text-transform: uppercase;
-  letter-spacing: 0.9px;
+  letter-spacing: 0.05em;
   background-color: transparent;
   min-width: 10.556em; }
 
@@ -817,18 +796,18 @@ svg {
 .jibaritoList__title {
   color: #a47d5e;
   font-family: "Alegreya-Regular";
-  font-size: 30px;
+  font-size: 1.875em;
   font-weight: 700;
   line-height: 1;
-  letter-spacing: 0.75px; }
+  letter-spacing: 0.025em; }
 
 .jibaritoList__desc {
   color: #56534c;
   font-family: "ProximaNova-Regular";
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 1.4px; }
+  line-height: 1.429em;
+  letter-spacing: 0.1em; }
 
 .jibaritoListRecipe {
   position: relative;
@@ -896,7 +875,7 @@ svg {
   -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
-  padding: 60px; }
+  padding: 3.75em; }
 
 .footer__logo {
   margin: 0 1.5em; }
@@ -905,15 +884,15 @@ svg {
   list-style: none;
   margin: 0;
   padding: 1.5em;
-  border-top: 1px solid #c4b9ae;
-  border-bottom: 1px solid #c4b9ae;
+  border-top: 0.071em solid #c4b9ae;
+  border-bottom: 0.071em solid #c4b9ae;
   font-family: "Alegreya-Regular";
   color: #000;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.714em;
   text-transform: uppercase;
-  letter-spacing: 4.2px;
+  letter-spacing: 0.3em;
   text-align: center; }
 
 .footerMenu__ {
