@@ -17,7 +17,9 @@ mixin tastesSoGood()
 				.tastesSoGood__image
 					img(src="./pictures/art_of_cakes_img4.png", alt="")
 		+adaptiveSquare().tastesSoGood__text
-			.tastesSoGood__textContent TASTES SO GOOD!
+			.tastesSoGood__textContent
+				+tastesSoGoodSvg()
+				.tastesSoGood__textContentText TASTES SO GOOD!
 
 
 mixin chefCook()

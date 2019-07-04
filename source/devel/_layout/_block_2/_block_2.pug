@@ -30,18 +30,19 @@ mixin sliderControl()
 
 
 mixin slider()
-	.slider
-		.slider__.slider__image
-			img(src="./pictures/perfect_pancakes_slider.png", alt="").slider__img
-			.slider__rating
-				+rating()
-		.slider__.slider__desc
-			.slider__descHeader
-				+blockHeader("Art of cakes","we create delicious memories","left")
-			.slider__descDesc Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.
-			.slider__sliderControl
-				+sliderControl()
-		.slider__.slider__ready
+	.slider__wrapper
+		.slider
+			.slider__.slider__image
+				img(src="./pictures/perfect_pancakes_slider.png", alt="").slider__img
+				.slider__rating
+					+rating()
+			.slider__.slider__desc
+				.slider__descHeader
+					+blockHeader("Art of cakes","we create delicious memories","left")
+				.slider__descDesc Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.
+				.slider__sliderControl
+					+sliderControl()
+		.slider__ready
 			+readyIn("ready in","40","mins",true)
 
 mixin block_2()

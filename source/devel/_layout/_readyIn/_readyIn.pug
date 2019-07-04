@@ -1,6 +1,7 @@
+include ./_readyInSVG
+
 mixin readyIn(title, time, unit, complete= false)
 	.readyIn(class= (complete == true) ? 'readyIn_complete' : false)
 		.readyIn__title= title
 		.readyIn__time= time
 		.readyIn__timeUnit= unit
-		
