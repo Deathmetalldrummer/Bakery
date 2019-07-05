@@ -249,7 +249,7 @@ svg {
   font-weight: 700;
   padding: 1em;
   text-align: center;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8);
   letter-spacing: 0.1em; }
   .readyIn_complete {
     background: #fff url("./pictures/readyIn.svg") top center no-repeat;
@@ -680,7 +680,7 @@ svg {
   letter-spacing: 0.05em; }
 
 .breakfastMenu {
-  background-color: #fff;
+  background: #fff url("./pictures/breakfast1.svg") bottom right no-repeat;
   font-size: 1rem;
   padding: 2em;
   text-align: center;
@@ -706,6 +706,9 @@ svg {
   line-height: 1.875em;
   text-transform: uppercase;
   letter-spacing: 0.044em; }
+
+.breakfastMenu__headBreakLine {
+  fill: #c2beba; }
 
 .breakfastMenu__title {
   color: #56534c;
