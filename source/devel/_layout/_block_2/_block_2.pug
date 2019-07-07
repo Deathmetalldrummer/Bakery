@@ -1,3 +1,8 @@
+mixin block_2()
+	//.block2
+	+slider()
+
+
 mixin rating()
 	ul.rating.rating_verical
 		li.rating__star.rating__star_active
@@ -10,6 +15,7 @@ mixin rating()
 			+ratingStar(true)
 		li.rating__star
 			+ratingStar()
+
 
 mixin sliderControl()
 	.sliderControl
@@ -44,7 +50,3 @@ mixin slider()
 					+sliderControl()
 		.slider__ready
 			+readyIn("ready in","40","mins",true)
-
-mixin block_2()
-	.block2
-		+slider()

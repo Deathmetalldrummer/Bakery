@@ -1,9 +1,3 @@
-mixin footerMenu(list)
-	ul.footerMenu
-		each link in list
-			li.footerMenu__
-				a(href="#", target="_blank").footerMenu__link= link
-
 mixin footer()
 	footer.footer
 		.footer__.footer__menu
@@ -12,3 +6,10 @@ mixin footer()
 			+logo("dark")
 		.footer__.footer__menu
 			+footerMenu(['events','catering','visit us'])
+
+
+mixin footerMenu(list)
+	ul.footerMenu
+		each link in list
+			li.footerMenu__
+				a(href="#", target="_blank").footerMenu__link= link

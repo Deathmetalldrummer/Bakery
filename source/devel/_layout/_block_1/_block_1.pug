@@ -1,3 +1,11 @@
+mixin block_1()
+	.block1
+		.block1__.block1__left
+			+artOfCakes()
+		.block1__.block1__right
+			+tastesSoGood()
+
+
 mixin tastesSoGood()
 	.tastesSoGood
 		.tastesSoGood__
@@ -31,16 +39,12 @@ mixin chefCook()
 			.chefCook__authorlastName Gaspare
 		bloquote.chefCook__cite Unique creations for unique
 			br
-			|occasions.
+			| occasions.
 
 
-mixin block_1()
-	.block1
-		.block1__.block1__left
-			.block1__header
-				+blockHeader("Art of cakes","we create delicious memories")
-			.block1__desc Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.
-			.block1__chefCook
-				+chefCook()
-		.block1__.block1__right
-			+tastesSoGood()
+mixin artOfCakes()
+	.artOfCakes__header
+		+blockHeader("Art of cakes","we create delicious memories")
+	.artOfCakes__desc Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.
+	.artOfCakes__chefCook
+		+chefCook()

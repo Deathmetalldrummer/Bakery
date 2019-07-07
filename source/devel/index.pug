@@ -1,17 +1,11 @@
 extends ./_html
 block body
 	.wrapper
-		.wrapper__.wrapper__header
-			.wrapper__headrNavbar
+		.wrapper__header
+			.wrapper__headerNavbar
 				+navbar()
 			.wrapper__headerContent
-				.headerContent
-					.headerContent__title Pastry with love
-						+dashLine().headerContent__titleLine
-					p.headerContent__desc We’re bringing you fresh ingredients every
-						br
-						| day in ways you can’t resist.
-					button(type="button").headerContent__button Our Menu
+				+header()
 		.wrapper__.wrapper__block1
 			+block_1()
 		.wrapper__.wrapper__block2

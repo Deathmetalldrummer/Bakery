@@ -1,3 +1,6 @@
+//////////////////////////////////////
+// Block 4
+//////////////////////////////////////
 .block4
 	width: 1200px
 	margin: auto
@@ -13,15 +16,17 @@
 	display: inline-block
 
 
-
-.jibaritoList
+//////////////////////////////////////
+// Jibarito Menu
+//////////////////////////////////////
+.jibaritoMenu
 	list-style: none
 	padding: 0
 	margin: 0
 	font-size: 1rem
-.jibaritoList__
+.jibaritoMenu__
 	text-align: center
-.jibaritoList__image
+.jibaritoMenu__image
 	width: 6.250em
 	height: 6.250em
 	margin: auto
@@ -31,14 +36,14 @@
 		display: block
 		min-width: 100%
 		min-height: 100%
-.jibaritoList__title
+.jibaritoMenu__title
 	color: #a47d5e
 	font-family: "Alegreya-Regular"
 	font-size: 1.875em
 	font-weight: 700
 	line-height: 1
 	letter-spacing: 0.025em
-.jibaritoList__desc
+.jibaritoMenu__desc
 	color: #56534c
 	font-family: "ProximaNova-Regular"
 	font-size: 0.875em
@@ -47,17 +52,18 @@
 	letter-spacing: 0.1em
 
 
-
+//////////////////////////////////////
+// Jibarito Recipe
+//////////////////////////////////////
 $jibarito_padding: 10px
-.jibaritoListRecipe
+.jibaritoRecipe
 	position: relative
 	padding: $jibarito_padding
 	background-color: #fff
 	margin: 25px
 	display: flex
 	justify-content: flex-end
-
-.jibaritoListRecipe__image
+.jibaritoRecipe__image
 	position: absolute
 	top: $jibarito_padding
 	bottom: $jibarito_padding
@@ -65,7 +71,7 @@ $jibarito_padding: 10px
 	right: $jibarito_padding
 	overflow: hidden
 	z-index: 99
-.jibaritoListRecipe__fullRecipe
+.jibaritoRecipe__fullRecipe
 	position: absolute
 	z-index: 101
 	bottom: 0
@@ -82,7 +88,7 @@ $jibarito_padding: 10px
 	line-height: 30px
 	text-transform: uppercase
 	letter-spacing: 0.9px
-.jibaritoListRecipe__info
+.jibaritoRecipe__info
 	position: relative
 	z-index: 100
 	margin-top: -35px !important

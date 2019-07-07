@@ -1,5 +1,17 @@
+mixin navbar()
+	.navbarWrapper
+		nav.navbar
+			.navbar__.navbar__logo
+				+logo()
+			.navbar__.navbar__menu
+				+menu()
+			.navbar__.navbar__social
+				+social()
+
+
 mixin logo(theme)
 	a(href="#", target="_blank" class= (theme === 'dark') ? 'logo_dark' : null).logo Gustoso
+
 
 mixin menu()
 	ul.menu
@@ -14,6 +26,7 @@ mixin menu()
 		li.menu__
 			a(href="#").menu__link Contact
 
+
 mixin social()
 	ul.social
 		li.social__
@@ -25,14 +38,3 @@ mixin social()
 		li.social__
 			a(href="#", target="_blank").social__icon
 				+instagram()
-
-
-mixin navbar()
-	.navbarWrapper
-		nav.navbar
-			.navbar__.navbar__logo
-				+logo()
-			.navbar__.navbar__menu
-				+menu()
-			.navbar__.navbar__social
-				+social()
