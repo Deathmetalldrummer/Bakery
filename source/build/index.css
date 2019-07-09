@@ -228,6 +228,10 @@ svg {
   letter-spacing: 0.1em; }
 
 .readyIn {
+  font-size: 1.125em;
+  letter-spacing: 0.1em;
+  font-family: "Alegreya-Bold";
+  font-weight: 700;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -244,28 +248,24 @@ svg {
   vertical-align: middle;
   width: 11.111em;
   height: 11.111em;
-  font-size: 1.125em;
-  font-family: "Alegreya-Bold";
-  font-weight: 700;
   padding: 1em;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.8);
-  letter-spacing: 0.1em; }
+  background-color: rgba(255, 255, 255, 0.8); }
   .readyIn_complete {
     background: #fff url("./pictures/readyIn.svg") top center no-repeat;
     background-size: cover; }
     .readyIn_complete .readyIn__time {
-      color: #dfc691;
-      font-size: 5.75em; }
+      font-size: 5.75em;
+      color: #dfc691; }
 
 .readyIn__title {
   color: #a47d5e;
   text-transform: uppercase; }
 
 .readyIn__time {
-  color: #56534c;
   font-size: 3.75em;
-  line-height: 1; }
+  line-height: 1;
+  color: #56534c; }
 
 .readyIn__timeUnit {
   color: #979285; }
@@ -274,6 +274,7 @@ svg {
   background-color: rgba(85, 82, 76, 0.5); }
 
 .navbar {
+  font-size: 1rem;
   max-width: 1200px;
   margin: auto;
   display: -webkit-box;
@@ -288,8 +289,7 @@ svg {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-  font-size: 1rem; }
+  align-items: center; }
 
 .navbar__ {
   padding: 1em 0; }
@@ -300,26 +300,26 @@ svg {
   flex-grow: 1; }
 
 .logo {
-  font-family: "Scriptina";
   font-size: 1.875rem;
-  line-height: 1;
   letter-spacing: 0.3em;
+  line-height: 1;
+  font-family: "Scriptina";
   color: #fff;
   text-decoration: none; }
   .logo_dark {
     color: #56534c; }
 
 .menu {
+  font-size: 0.875rem;
+  line-height: 1.714em;
+  letter-spacing: 0.3em;
+  font-weight: 400;
   list-style: none;
   margin: 0;
   padding: 0;
   font-family: "Alegreya-Regular";
   color: #fff;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.714em;
   text-transform: uppercase;
-  letter-spacing: 0.3em;
   text-align: center; }
 
 .menu__ {
@@ -334,10 +334,10 @@ svg {
   text-decoration: none; }
 
 .social {
+  font-size: 1rem;
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -362,61 +362,62 @@ svg {
     margin-left: 1.2em; }
 
 .social__icon {
-  display: inline-block;
   width: 1em;
-  height: 1em; }
+  height: 1em;
+  display: inline-block; }
   .social__icon svg {
     fill: #fff; }
 
 .header {
+  font-size: 1rem;
+  padding: 2%;
   color: #fff;
   text-align: center;
-  padding: 1.5vw;
-  background-image: -webkit-radial-gradient(center, circle 30em, #564f4c 0%, rgba(86, 83, 76, 0) 100%);
-  background-image: -o-radial-gradient(center, circle 30em, #564f4c 0%, rgba(86, 83, 76, 0) 100%);
-  background-image: radial-gradient(circle 30em at center, #564f4c 0%, rgba(86, 83, 76, 0) 100%); }
+  background-image: -webkit-radial-gradient(center, circle 15em, #564f4c 0%, rgba(86, 83, 76, 0) 100%);
+  background-image: -o-radial-gradient(center, circle 15em, #564f4c 0%, rgba(86, 83, 76, 0) 100%);
+  background-image: radial-gradient(circle 15em at center, #564f4c 0%, rgba(86, 83, 76, 0) 100%); }
 
 .header__title {
+  font-size: 5.75em;
+  letter-spacing: 0.075em;
+  line-height: 1;
+  font-family: "PlayfairDisplay-Regular";
   text-shadow: 0 1px 0 #3d3029;
   color: #ffffff;
-  font-family: "PlayfairDisplay-Regular";
-  font-size: 92px;
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 6.9px; }
+  font-weight: 400; }
   .header__titleLine {
-    display: block;
+    height: 0.1em;
     margin: auto;
-    fill: #fff;
-    height: 10px;
-    margin-top: 60px; }
+    margin-top: 0.652em;
+    display: block;
+    fill: #fff; }
 
 .header__desc {
+  font-size: 1.5em;
+  line-height: 1.5;
+  letter-spacing: 0.108em;
+  margin: 60px 0;
   text-shadow: 0 1px 0 #3d3029;
   color: #ffffff;
   font-family: "ProximaNova-Light";
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 36px;
-  letter-spacing: 2.6px;
-  margin: 60px 0; }
+  font-weight: 400; }
 
 .header__button {
+  font-size: 0.875em;
+  line-height: 1.714em;
+  letter-spacing: 0.3em;
   font-family: "Alegreya-Regular";
-  font-size: 14px;
+  padding: 0.857em 3.214em;
   font-weight: 700;
-  line-height: 24px;
   text-transform: uppercase;
-  letter-spacing: 4.2px;
   border: 1px dashed #9e9c93;
   color: #fff;
   background-color: rgba(85, 82, 76, 0.5);
-  padding: 12px 45px;
   outline: none;
   cursor: pointer; }
 
 .block1 {
-  width: 1200px;
+  font-size: 1rem;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -433,17 +434,18 @@ svg {
   align-items: center; }
 
 .block1__ {
+  font-size: 1em;
   width: 50%;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
   -ms-flex-negative: 1;
-  flex-shrink: 1;
-  font-size: 1rem; }
+  flex-shrink: 1; }
   .block1__left {
     padding: 0 3em; }
 
 .tastesSoGood {
+  font-size: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,22 +459,22 @@ svg {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  position: relative;
-  font-size: 1rem; }
+  position: relative; }
 
 .tastesSoGood__ {
+  padding: 0.625em;
   width: 50%;
   -ms-flex-negative: 1;
-  flex-shrink: 1;
-  padding: 0.625em; }
+  flex-shrink: 1; }
 
 .tastesSoGood__image {
   width: 100%;
   height: 100%;
-  outline: #fff 5px solid;
+  outline: #fff 0.313em solid;
   outline-offset: -0.625em;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #c9b176; }
   .tastesSoGood__image img {
     min-width: 100%;
     min-height: 100%; }
@@ -507,6 +509,12 @@ svg {
     left: 0;
     right: 0; }
   .tastesSoGood__textContent {
+    font-size: 1.875em;
+    letter-spacing: 0.042em;
+    line-height: 1.2;
+    font-family: "Alegreya-Regular";
+    font-weight: 400;
+    padding: 1em;
     width: 100%;
     height: 100%;
     display: -webkit-box;
@@ -517,13 +525,7 @@ svg {
     -ms-flex-align: center;
     align-items: center;
     color: #c9b176;
-    font-family: "Alegreya-Regular";
-    font-size: 1.875em;
-    font-weight: 400;
-    line-height: 1;
-    text-transform: uppercase;
-    letter-spacing: 0.042em;
-    padding: 1em; }
+    text-transform: uppercase; }
     .tastesSoGood__textContent svg {
       position: absolute;
       top: 0;
@@ -534,15 +536,17 @@ svg {
       z-index: -1; }
 
 .chefCook {
-  font-family: "Alegreya-Regular";
-  color: #56534c;
   font-size: 1.5rem;
   letter-spacing: 0.025em;
-  text-align: center; }
+  font-family: "Alegreya-Regular";
+  color: #56534c;
+  text-align: center;
+  margin-bottom: 1em; }
 
 .chefCook__title {
   font-weight: 700;
-  line-height: 1.25em; }
+  line-height: 1.25em;
+  margin-bottom: 0.8em; }
 
 .chefCook__author {
   display: -webkit-box;
@@ -561,19 +565,19 @@ svg {
   .chefCook__authorAvatar {
     margin: 1em; }
   .chefCook__authorFirtName, .chefCook__authorlastName {
-    padding: 1em;
-    border-top: 1px solid #c4b9ae;
-    border-bottom: 1px solid #c4b9ae;
+    line-height: 1.25em;
     font-weight: 400;
-    line-height: 1.25em; }
+    padding: 0.6em 1em;
+    border-top: 1px solid #c4b9ae;
+    border-bottom: 1px solid #c4b9ae; }
 
 .chefCook__cite {
-  color: #a47d5e;
-  font-family: "Scriptina";
   font-size: 1em;
-  font-weight: 400;
   line-height: 1.25em;
   letter-spacing: 0.025em;
+  font-family: "Scriptina";
+  font-weight: 400;
+  color: #a47d5e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -584,18 +588,22 @@ svg {
   -ms-flex-align: center;
   align-items: center; }
 
+.artOfCakes__header {
+  margin-bottom: 3.5em; }
+
 .artOfCakes__desc {
-  color: #56534c;
-  font-family: "ProximaNova-Regular";
   font-size: 0.875em;
-  font-weight: 400;
-  line-height: 1.5em;
+  line-height: 1.75em;
   letter-spacing: 0.1em;
-  text-align: center; }
+  font-family: "ProximaNova-Regular";
+  font-weight: 400;
+  color: #56534c;
+  text-align: center;
+  margin-bottom: 2.5em; }
 
 .slider__wrapper {
   position: relative;
-  padding: 5%; }
+  padding: 3% 7% 2.5% 2.5%; }
 
 .slider {
   margin: auto;
@@ -640,15 +648,15 @@ svg {
   background: #fff url("./pictures/mill_origin.png") right bottom no-repeat;
   background-size: 40%; }
   .slider__desc .slider__descHeader {
-    padding-bottom: 3.75em; }
+    margin-bottom: 3.25em; }
   .slider__desc .slider__descDesc {
-    padding-bottom: 6.25em;
-    color: #56534c;
-    font-family: "ProximaNova-Regular";
     font-size: 0.875em;
-    font-weight: 400;
     line-height: 1.714em;
-    letter-spacing: 0.1em; }
+    letter-spacing: 0.1em;
+    font-family: "ProximaNova-Regular";
+    font-weight: 400;
+    margin-bottom: 7.3em;
+    color: #56534c; }
 
 .slider__ready {
   position: absolute;
@@ -663,6 +671,7 @@ svg {
   margin: 0; }
 
 .sliderControl {
+  font-size: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -675,8 +684,15 @@ svg {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-  font-size: 1rem; }
+  align-items: center; }
+  .sliderControl > * {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1; }
+
+.sliderControl__arrow {
+  -ms-flex-negative: 1;
+  flex-shrink: 1; }
 
 .sliderControl__list {
   list-style: none;
@@ -702,54 +718,72 @@ svg {
   flex-shrink: 1; }
 
 .breakfast {
-  text-align: center;
-  font-size: 1rem; }
+  font-size: 1rem;
+  text-align: center; }
 
-.breakfast__header .blockHeader__title {
-  color: #fff; }
+.breakfast__header {
+  margin-bottom: 3.5em; }
+  .breakfast__header .blockHeader__title {
+    color: #fff; }
+  .breakfast__header .blockHeader__desc {
+    color: #c8a593; }
 
-.breakfast__header .blockHeader__desc {
-  color: #c8a593; }
+.breakfast__headerBlock {
+  font-size: 1.3rem; }
 
 .breakfast__list {
   list-style: none;
   padding: 0;
   margin: 0; }
 
+.breakfast__li + .breakfast__li {
+  margin-top: 2.8em; }
+
 .breakfast__liName {
-  color: #ffffff;
-  font-family: "Alegreya-Regular";
   font-size: 1.875em;
+  letter-spacing: 0.05em;
   font-weight: 700;
-  letter-spacing: 0.05em; }
+  font-family: "Alegreya-Regular";
+  color: #ffffff;
+  margin-bottom: 0.1em; }
 
 .breakfast__liDesc {
   font-size: 1em;
-  color: #c2beba;
-  font-family: "ProximaNova-Regular";
-  letter-spacing: 0.05em;
   line-height: 1.875em;
-  font-weight: 400; }
+  letter-spacing: 0.05em;
+  font-family: "ProximaNova-Regular";
+  font-weight: 400;
+  color: #c2beba;
+  margin-bottom: 1em; }
 
 .breakfast__liCost {
-  color: #dfc691;
-  font-family: "Alegreya-Regular";
   font-size: 2.250em;
-  font-weight: 400;
   line-height: 1;
-  letter-spacing: 0.05em; }
+  letter-spacing: 0.05em;
+  font-family: "Alegreya-Regular";
+  color: #dfc691;
+  font-weight: 400; }
 
 .breakfastMenu {
-  background: #fff url("./pictures/breakfast1.svg") bottom right no-repeat;
   font-size: 1rem;
-  padding: 2em;
-  text-align: center;
   -webkit-box-shadow: 0.438em 0 0.313em rgba(0, 0, 0, 0.8);
   box-shadow: 0.438em 0 0.313em rgba(0, 0, 0, 0.8);
+  background: #fff url("./pictures/breakfast1.svg") bottom right no-repeat;
   outline: 0.125em dashed #9e9c93;
-  outline-offset: -0.5em; }
+  padding: 2.9em 2.3em;
+  outline-offset: -0.7em;
+  text-align: center; }
+
+.breakfastMenu__head {
+  margin-bottom: 3.6em; }
 
 .breakfastMenu__headText {
+  font-size: 0.875em;
+  line-height: 1.875em;
+  letter-spacing: 0.044em;
+  font-family: "Alegreya-Regular";
+  font-weight: 700;
+  margin-bottom: 0.5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -760,42 +794,39 @@ svg {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   color: #56534c;
-  font-family: "Alegreya-Regular";
-  font-size: 0.875em;
-  font-weight: 700;
-  line-height: 1.875em;
-  text-transform: uppercase;
-  letter-spacing: 0.044em; }
+  text-transform: uppercase; }
 
 .breakfastMenu__headBreakLine {
   fill: #c2beba; }
 
 .breakfastMenu__title {
-  color: #56534c;
-  font-family: "Alegreya-Regular";
   font-size: 2.75em;
-  font-weight: 700;
   line-height: 1.364;
-  letter-spacing: 0.025em; }
+  letter-spacing: 0.025em;
+  font-family: "Alegreya-Regular";
+  font-weight: 700;
+  margin-bottom: 0.6em;
+  color: #56534c; }
 
 .breakfastMenu__desc {
-  color: #56534c;
-  font-family: "ProximaNova-Regular";
   font-size: 0.875em;
+  line-height: 2.175;
+  letter-spacing: 0.044em;
+  font-family: "ProximaNova-Regular";
   font-weight: 400;
-  line-height: 1.875em;
-  letter-spacing: 0.044em; }
+  margin-bottom: 3.3em;
+  color: #56534c; }
 
 .breakfastMenu__btn button {
-  padding: 1em 2em;
   font-size: 1.125em;
-  border: 0.056em solid black;
-  color: #a47d5e;
+  line-height: 1.667em;
+  letter-spacing: 0.05em;
   font-family: "Alegreya-Regular";
   font-weight: 700;
-  line-height: 1.667em;
+  padding: 0.5em 2em;
+  border: 0.056em solid black;
+  color: #a47d5e;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
   background-color: transparent;
   min-width: 10.556em; }
 
@@ -826,10 +857,10 @@ svg {
   display: inline-block; }
 
 .jibaritoMenu {
+  font-size: 1rem;
   list-style: none;
   padding: 0;
-  margin: 0;
-  font-size: 1rem; }
+  margin: 0; }
 
 .jibaritoMenu__ {
   text-align: center; }
@@ -846,26 +877,27 @@ svg {
     min-height: 100%; }
 
 .jibaritoMenu__title {
-  color: #a47d5e;
-  font-family: "Alegreya-Regular";
   font-size: 1.875em;
-  font-weight: 700;
+  letter-spacing: 0.025em;
   line-height: 1;
-  letter-spacing: 0.025em; }
+  font-family: "Alegreya-Regular";
+  font-weight: 700;
+  color: #a47d5e; }
 
 .jibaritoMenu__desc {
-  color: #56534c;
-  font-family: "ProximaNova-Regular";
   font-size: 0.875em;
-  font-weight: 400;
+  letter-spacing: 0.1em;
   line-height: 1.429em;
-  letter-spacing: 0.1em; }
+  font-family: "ProximaNova-Regular";
+  font-weight: 400;
+  color: #56534c; }
 
 .jibaritoRecipe {
+  font-size: 1rem;
   position: relative;
-  padding: 10px;
+  padding: 0.625em;
   background-color: #fff;
-  margin: 25px;
+  margin: 1.563em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -875,36 +907,36 @@ svg {
 
 .jibaritoRecipe__image {
   position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
+  top: 0.625em;
+  bottom: 0.625em;
+  left: 0.625em;
+  right: 0.625em;
   overflow: hidden;
   z-index: 99; }
 
 .jibaritoRecipe__fullRecipe {
+  font-size: 1.125em;
+  letter-spacing: 0.05em;
+  line-height: 1.667;
+  font-family: "Alegreya-Regular";
+  font-weight: 700;
   position: absolute;
   z-index: 101;
   bottom: 0;
   left: 0;
-  margin-bottom: -25px;
-  margin-left: -25px;
-  padding: 20px 30px;
+  margin-bottom: -1.389em;
+  margin-left: -1.389em;
+  padding: 1.111em 1.667em;
   background-color: #fff;
   border: 1px dashed #dfc691;
   color: #dfc691;
-  font-family: "Alegreya-Regular";
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 30px;
-  text-transform: uppercase;
-  letter-spacing: 0.9px; }
+  text-transform: uppercase; }
 
 .jibaritoRecipe__info {
   position: relative;
   z-index: 100;
-  margin-top: -35px !important;
-  margin-bottom: -35px !important; }
+  margin-top: -2.188em !important;
+  margin-bottom: -2.188em !important; }
 
 .recipeInfo {
   list-style: none;
@@ -913,6 +945,8 @@ svg {
   display: inline-block; }
 
 .footer {
+  font-size: 1rem;
+  padding: 3.75em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -926,25 +960,24 @@ svg {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  overflow: hidden;
-  padding: 3.75em; }
+  overflow: hidden; }
 
 .footer__logo {
   margin: 0 1.5em; }
 
 .footerMenu {
+  font-size: 0.875rem;
+  letter-spacing: 0.3em;
+  line-height: 1.714em;
+  font-family: "Alegreya-Regular";
+  font-weight: 400;
   list-style: none;
   margin: 0;
   padding: 1.5em;
   border-top: 0.071em solid #c4b9ae;
   border-bottom: 0.071em solid #c4b9ae;
-  font-family: "Alegreya-Regular";
   color: #000;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.714em;
   text-transform: uppercase;
-  letter-spacing: 0.3em;
   text-align: center; }
 
 .footerMenu__ {
@@ -993,19 +1026,21 @@ svg {
     -ms-flex-negative: 1;
     flex-shrink: 1; }
   .wrapper__headerContent {
-    margin: auto; }
+    margin: auto;
+    width: 100%; }
 
 .wrapper__,
 .wrapper__header {
   min-height: 100vh;
   max-width: 100vw;
   overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover; }
 
 .wrapper__block1 {
-  background-image: -webkit-linear-gradient(225deg, #c4b9ae 0%, #ffffff 100%);
-  background-image: -o-linear-gradient(225deg, #c4b9ae 0%, #ffffff 100%);
-  background-image: linear-gradient(-135deg, #c4b9ae 0%, #ffffff 100%); }
+  background: #fff url("./pictures/block_1_bg.png") right center no-repeat;
+  background-size: cover; }
 
 .wrapper__block2 {
   background-image: url("./pictures/perfect_pancakes_bg.png"); }

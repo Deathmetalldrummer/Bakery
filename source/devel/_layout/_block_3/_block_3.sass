@@ -15,91 +15,102 @@
 // Breakfast
 //////////////////////////////////////
 .breakfast
-	text-align: center
 	font-size: 1rem
+	text-align: center
 .breakfast__header
+	margin-bottom: 3.5em
 	.blockHeader__title
 		color: #fff
 	.blockHeader__desc
 		color: #c8a593
+.breakfast__headerBlock
+	font-size: 1.3rem
 .breakfast__list
 	list-style: none
 	padding: 0
 	margin: 0
 .breakfast__li
+	&+&
+		margin-top: 2.8em
 .breakfast__liName
-	color: #ffffff
-	font-family: "Alegreya-Regular"
 	font-size: 1.875em
-	font-weight: 700
 	letter-spacing: 0.05em
+	font-weight: 700
+	font-family: "Alegreya-Regular"
+	color: #ffffff
+	margin-bottom: 0.1em
 .breakfast__liDesc
 	font-size: 1em
-	color: #c2beba
-	font-family: "ProximaNova-Regular"
-	letter-spacing: 0.05em
 	line-height: 1.875em
+	letter-spacing: 0.05em
+	font-family: "ProximaNova-Regular"
 	font-weight: 400
+	color: #c2beba
+	margin-bottom: 1em
 .breakfast__liCost
-	color: #dfc691
-	font-family: "Alegreya-Regular"
 	font-size: 2.250em
-	font-weight: 400
 	line-height: 1
 	letter-spacing: 0.05em
+	font-family: "Alegreya-Regular"
+	color: #dfc691
+	font-weight: 400
 
 
 //////////////////////////////////////
 // Breakfast Menu
 //////////////////////////////////////
 .breakfastMenu
-	background: #fff url("./pictures/breakfast1.svg") bottom right no-repeat
 	font-size: 1rem
-	padding: 2em
-	text-align: center
 	box-shadow: 0.438em 0 0.313em rgba(0, 0, 0, 0.8)
+	background: #fff url("./pictures/breakfast1.svg") bottom right no-repeat
 	outline: 0.125em dashed #9e9c93
-	outline-offset: -0.5em
+	padding: 2.9em 2.3em
+	outline-offset: -0.7em
+	text-align: center
 .breakfastMenu__head
+	margin-bottom: 3.6em
 .breakfastMenu__headText
+	font-size: 0.875em
+	line-height: 1.875em
+	letter-spacing: 0.044em
+	font-family: "Alegreya-Regular"
+	font-weight: 700
+	margin-bottom: 0.5em
 	display: flex
 	flex-flow: row nowrap
 	justify-content: space-around
 	color: #56534c
-	font-family: "Alegreya-Regular"
-	font-size: 0.875em
-	font-weight: 700
-	line-height: 1.875em
 	text-transform: uppercase
-	letter-spacing: 0.044em
 .breakfastMenu__headText_left
 .breakfastMenu__headText_right
 .breakfastMenu__headBreakLine
 	fill: #c2beba
 .breakfastMenu__title
-	color: #56534c
-	font-family: "Alegreya-Regular"
 	font-size: 2.75em
-	font-weight: 700
 	line-height: 1.364
 	letter-spacing: 0.025em
-.breakfastMenu__desc
+	font-family: "Alegreya-Regular"
+	font-weight: 700
+	margin-bottom: 0.6em
 	color: #56534c
-	font-family: "ProximaNova-Regular"
+.breakfastMenu__desc
 	font-size: 0.875em
-	font-weight: 400
-	line-height: 1.875em
+	line-height: 2.175
 	letter-spacing: 0.044em
+	font-family: "ProximaNova-Regular"
+	font-weight: 400
+	margin-bottom: 3.3em
+	color: #56534c
 .breakfastMenu__btn
 	button
-		padding: 1em 2em
 		font-size: 1.125em
-		border: 0.056em solid black
-		color: #a47d5e
+		line-height: 1.667em
+		letter-spacing: 0.05em
 		font-family: "Alegreya-Regular"
 		font-weight: 700
-		line-height: 1.667em
+		padding: 0.5em 2em
+		border: 0.056em solid black
+		color: #a47d5e
 		text-transform: uppercase
-		letter-spacing: 0.05em
 		background-color: transparent
 		min-width: 10.556em

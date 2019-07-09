@@ -20,10 +20,10 @@
 // Jibarito Menu
 //////////////////////////////////////
 .jibaritoMenu
+	font-size: 1rem
 	list-style: none
 	padding: 0
 	margin: 0
-	font-size: 1rem
 .jibaritoMenu__
 	text-align: center
 .jibaritoMenu__image
@@ -37,30 +37,32 @@
 		min-width: 100%
 		min-height: 100%
 .jibaritoMenu__title
-	color: #a47d5e
-	font-family: "Alegreya-Regular"
 	font-size: 1.875em
-	font-weight: 700
-	line-height: 1
 	letter-spacing: 0.025em
+	line-height: 1
+	font-family: "Alegreya-Regular"
+	font-weight: 700
+	color: #a47d5e
 .jibaritoMenu__desc
-	color: #56534c
-	font-family: "ProximaNova-Regular"
 	font-size: 0.875em
-	font-weight: 400
-	line-height: 1.429em
 	letter-spacing: 0.1em
+	line-height: 1.429em
+	font-family: "ProximaNova-Regular"
+	font-weight: 400
+	color: #56534c
 
 
 //////////////////////////////////////
 // Jibarito Recipe
 //////////////////////////////////////
-$jibarito_padding: 10px
+$jibarito_padding: 0.625em
+$jibarito_margin: 1.563em
 .jibaritoRecipe
+	font-size: 1rem
 	position: relative
 	padding: $jibarito_padding
 	background-color: #fff
-	margin: 25px
+	margin: $jibarito_margin
 	display: flex
 	justify-content: flex-end
 .jibaritoRecipe__image
@@ -72,27 +74,27 @@ $jibarito_padding: 10px
 	overflow: hidden
 	z-index: 99
 .jibaritoRecipe__fullRecipe
+	font-size: 1.125em
+	letter-spacing: 0.05em
+	line-height: 1.667
+	font-family: "Alegreya-Regular"
+	font-weight: 700
 	position: absolute
 	z-index: 101
 	bottom: 0
 	left: 0
-	margin-bottom: -25px
-	margin-left: -25px
-	padding: 20px 30px
+	margin-bottom: -1.389em
+	margin-left: -1.389em
+	padding: 1.111em 1.667em
 	background-color: #fff
 	border: 1px dashed #dfc691
 	color: #dfc691
-	font-family: "Alegreya-Regular"
-	font-size: 18px
-	font-weight: 700
-	line-height: 30px
 	text-transform: uppercase
-	letter-spacing: 0.9px
 .jibaritoRecipe__info
 	position: relative
 	z-index: 100
-	margin-top: -35px !important
-	margin-bottom: -35px !important
+	margin-top: -2.188em !important
+	margin-bottom: -2.188em !important
 .recipeInfo
 	list-style: none
 	margin: 0

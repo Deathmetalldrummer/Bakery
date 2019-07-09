@@ -3,7 +3,7 @@
 //////////////////////////////////////
 .slider__wrapper
 	position: relative
-	padding: 5%
+	padding: 3% 7% 2.5% 2.5%
 .slider
 	margin: auto
 	display: flex
@@ -34,15 +34,15 @@
 	background: #fff url("./pictures/mill_origin.png") right bottom no-repeat
 	background-size: 40%
 	.slider__descHeader
-		padding-bottom: 3.75em
+		margin-bottom: 3.25em
 	.slider__descDesc
-		padding-bottom: 6.25em
-		color: #56534c
-		font-family: "ProximaNova-Regular"
 		font-size: 0.875em
-		font-weight: 400
 		line-height: 1.714em
 		letter-spacing: 0.1em
+		font-family: "ProximaNova-Regular"
+		font-weight: 400
+		margin-bottom: 7.3em
+		color: #56534c
 	.slider__slide
 .slider__ready
 	position: absolute
@@ -67,12 +67,15 @@
 // Slider Control
 //////////////////////////////////////
 .sliderControl
+	font-size: 1rem
 	display: flex
 	flex-flow: row nowrap
 	justify-content: center
 	align-items: center
-	font-size: 1rem
+	&>*
+		flex-grow: 1
 .sliderControl__arrow
+	flex-shrink: 1
 	&_left
 	&_right
 .sliderControl__list

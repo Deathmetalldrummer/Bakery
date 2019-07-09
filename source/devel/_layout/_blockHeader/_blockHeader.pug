@@ -1,5 +1,5 @@
 mixin blockHeader(title,desc,align)
-	.blockHeader(class= (align ? "blockHeader_"+align : null))
+	.blockHeader(class= (align ? "blockHeader_"+align : null))&attributes(attributes)
 		.blockHeader__title= title
 		.blockHeader__desc= desc
 			
