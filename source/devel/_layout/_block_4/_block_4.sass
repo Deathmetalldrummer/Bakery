@@ -2,18 +2,18 @@
 // Block 4
 //////////////////////////////////////
 .block4
-	width: 1200px
 	margin: auto
 	display: flex
-	flex-flow: row nowrap
+	flex-flow: row wrap
 	justify-content: center
 	align-items: center
 .block4__left
-	width: get_w(4)
+	width: get_w(3)
 .block4__right
+	margin-left: get_w(1)
 	width: get_w(8)
 .block4__header
-	display: inline-block
+	width: 100%
 
 
 //////////////////////////////////////
@@ -26,12 +26,16 @@
 	margin: 0
 .jibaritoMenu__
 	text-align: center
+	padding: 3%
+	&+&
+		margin-top: 1.8em
 .jibaritoMenu__image
 	width: 6.250em
 	height: 6.250em
 	margin: auto
 	border-radius: 50%
 	overflow: hidden
+	margin-bottom: 1.2em
 	img
 		display: block
 		min-width: 100%
@@ -43,6 +47,7 @@
 	font-family: "Alegreya-Regular"
 	font-weight: 700
 	color: #a47d5e
+	margin-bottom: 0.7em
 .jibaritoMenu__desc
 	font-size: 0.875em
 	letter-spacing: 0.1em
@@ -85,7 +90,7 @@ $jibarito_margin: 1.563em
 	left: 0
 	margin-bottom: -1.389em
 	margin-left: -1.389em
-	padding: 1.111em 1.667em
+	padding: 0.8em 1.667em
 	background-color: #fff
 	border: 1px dashed #dfc691
 	color: #dfc691

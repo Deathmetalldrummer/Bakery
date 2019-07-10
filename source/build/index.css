@@ -275,7 +275,6 @@ svg {
 
 .navbar {
   font-size: 1rem;
-  max-width: 1200px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -292,7 +291,7 @@ svg {
   align-items: center; }
 
 .navbar__ {
-  padding: 1em 0; }
+  padding: 1.1em 0; }
 
 .navbar__menu {
   -webkit-box-flex: 1;
@@ -327,7 +326,7 @@ svg {
   .menu__ + .menu__:before {
     content: "~";
     display: inline-block;
-    margin: 0 2em; }
+    margin: 0 2.3em; }
 
 .menu__link {
   color: inherit;
@@ -359,7 +358,7 @@ svg {
   -ms-flex-align: center;
   align-items: center; }
   .social__ + .social__ {
-    margin-left: 1.2em; }
+    margin-left: 1.5em; }
 
 .social__icon {
   width: 1em;
@@ -603,7 +602,9 @@ svg {
 
 .slider__wrapper {
   position: relative;
-  padding: 3% 7% 2.5% 2.5%; }
+  padding: 3% 7% 1% 1%;
+  width: 83.33333%;
+  margin: auto; }
 
 .slider {
   margin: auto;
@@ -710,12 +711,17 @@ svg {
   display: flex; }
 
 .block3__ {
-  width: 50%;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
   -ms-flex-negative: 1;
   flex-shrink: 1; }
+
+.block3__left {
+  width: 58.33333%; }
+
+.block3__right {
+  width: 41.66667%; }
 
 .breakfast {
   font-size: 1rem;
@@ -831,15 +837,14 @@ svg {
   min-width: 10.556em; }
 
 .block4 {
-  width: 1200px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -848,13 +853,14 @@ svg {
   align-items: center; }
 
 .block4__left {
-  width: 33.33333%; }
+  width: 25%; }
 
 .block4__right {
+  margin-left: 8.33333%;
   width: 66.66667%; }
 
 .block4__header {
-  display: inline-block; }
+  width: 100%; }
 
 .jibaritoMenu {
   font-size: 1rem;
@@ -863,14 +869,18 @@ svg {
   margin: 0; }
 
 .jibaritoMenu__ {
-  text-align: center; }
+  text-align: center;
+  padding: 3%; }
+  .jibaritoMenu__ + .jibaritoMenu__ {
+    margin-top: 1.8em; }
 
 .jibaritoMenu__image {
   width: 6.250em;
   height: 6.250em;
   margin: auto;
   border-radius: 50%;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 1.2em; }
   .jibaritoMenu__image img {
     display: block;
     min-width: 100%;
@@ -882,7 +892,8 @@ svg {
   line-height: 1;
   font-family: "Alegreya-Regular";
   font-weight: 700;
-  color: #a47d5e; }
+  color: #a47d5e;
+  margin-bottom: 0.7em; }
 
 .jibaritoMenu__desc {
   font-size: 0.875em;
@@ -926,7 +937,7 @@ svg {
   left: 0;
   margin-bottom: -1.389em;
   margin-left: -1.389em;
-  padding: 1.111em 1.667em;
+  padding: 0.8em 1.667em;
   background-color: #fff;
   border: 1px dashed #dfc691;
   color: #dfc691;
@@ -1005,7 +1016,7 @@ svg {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 2.5% 5%; }
+  padding: 2.5% 0%; }
 
 .wrapper__header {
   background-image: url("./pictures/bg1.png");
