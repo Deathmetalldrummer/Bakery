@@ -8,190 +8,195 @@
   font-family: "Scriptina";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/Scriptina/Scriptina.woff2") format("woff2"), url("./font/Scriptina/Scriptina.woff") format("woff"); }
+  src: url("./fonts/Scriptina/Scriptina.woff2") format("woff2"), url("./fonts/Scriptina/Scriptina.woff") format("woff"); }
 
 @font-face {
   font-family: "Alegreya-Italic";
   font-weight: 300;
   font-style: italic;
-  src: url("./font/Alegreya/Alegreya-Italic.woff2") format("woff2"), url("./font/Alegreya/Alegreya-Italic.woff") format("woff"); }
+  src: url("./fonts/Alegreya/Alegreya-Italic.woff2") format("woff2"), url("./fonts/Alegreya/Alegreya-Italic.woff") format("woff"); }
 
 @font-face {
   font-family: "Alegreya-Regular";
   font-weight: 400;
   font-style: normal;
-  src: url("./font/Alegreya/Alegreya-Regular.woff2") format("woff2"), url("./font/Alegreya/Alegreya-Regular.woff") format("woff"); }
+  src: url("./fonts/Alegreya/Alegreya-Regular.woff2") format("woff2"), url("./fonts/Alegreya/Alegreya-Regular.woff") format("woff"); }
 
 @font-face {
   font-family: "Alegreya-Medium";
   font-weight: 500;
   font-style: normal;
-  src: url("./font/Alegreya/Alegreya-Medium.woff2") format("woff2"), url("./font/Alegreya/Alegreya-Medium.woff") format("woff"); }
+  src: url("./fonts/Alegreya/Alegreya-Medium.woff2") format("woff2"), url("./fonts/Alegreya/Alegreya-Medium.woff") format("woff"); }
 
 @font-face {
   font-family: "Alegreya-MediumItalic";
   font-weight: 500;
   font-style: italic;
-  src: url("./font/Alegreya/Alegreya-MediumItalic.woff2") format("woff2"), url("./font/Alegreya/Alegreya-MediumItalic.woff") format("woff"); }
+  src: url("./fonts/Alegreya/Alegreya-MediumItalic.woff2") format("woff2"), url("./fonts/Alegreya/Alegreya-MediumItalic.woff") format("woff"); }
 
 @font-face {
   font-family: "Alegreya-Bold";
   font-weight: 600;
   font-style: normal;
-  src: url("./font/Alegreya/Alegreya-Bold.woff2") format("woff2"), url("./font/Alegreya/Alegreya-Bold.woff") format("woff"); }
+  src: url("./fonts/Alegreya/Alegreya-Bold.woff2") format("woff2"), url("./fonts/Alegreya/Alegreya-Bold.woff") format("woff"); }
 
 @font-face {
   font-family: "Alegreya-BoldItalic";
   font-weight: 600;
   font-style: italic;
-  src: url("./font/Alegreya/Alegreya-BoldItalic.woff2") format("woff2"), url("./font/Alegreya/Alegreya-BoldItalic.woff") format("woff"); }
+  src: url("./fonts/Alegreya/Alegreya-BoldItalic.woff2") format("woff2"), url("./fonts/Alegreya/Alegreya-BoldItalic.woff") format("woff"); }
 
 @font-face {
   font-family: "Alegreya-ExtraBold";
   font-weight: 800;
   font-style: normal;
-  src: url("./font/Alegreya/Alegreya-ExtraBold.woff2") format("woff2"), url("./font/Alegreya/Alegreya-ExtraBold.woff") format("woff"); }
+  src: url("./fonts/Alegreya/Alegreya-ExtraBold.woff2") format("woff2"), url("./fonts/Alegreya/Alegreya-ExtraBold.woff") format("woff"); }
 
 @font-face {
   font-family: "Alegreya-ExtraBoldItalic";
   font-weight: 800;
   font-style: italic;
-  src: url("./font/Alegreya/Alegreya-ExtraBoldItalic.woff2") format("woff2"), url("./font/Alegreya/Alegreya-ExtraBoldItalic.woff") format("woff"); }
+  src: url("./fonts/Alegreya/Alegreya-ExtraBoldItalic.woff2") format("woff2"), url("./fonts/Alegreya/Alegreya-ExtraBoldItalic.woff") format("woff"); }
 
 @font-face {
   font-family: "Alegreya-Black";
   font-weight: 900;
   font-style: normal;
-  src: url("./font/Alegreya/Alegreya-Black.woff2") format("woff2"), url("./font/Alegreya/Alegreya-Black.woff") format("woff"); }
+  src: url("./fonts/Alegreya/Alegreya-Black.woff2") format("woff2"), url("./fonts/Alegreya/Alegreya-Black.woff") format("woff"); }
 
 @font-face {
   font-family: "Alegreya-BlackItalic";
   font-weight: 900;
   font-style: italic;
-  src: url("./font/Alegreya/Alegreya-BlackItalic.woff2") format("woff2"), url("./font/Alegreya/Alegreya-BlackItalic.woff") format("woff"); }
+  src: url("./fonts/Alegreya/Alegreya-BlackItalic.woff2") format("woff2"), url("./fonts/Alegreya/Alegreya-BlackItalic.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-Thin";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-Thin.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-Thin.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-Thin.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-Thin.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-ThinIt";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-ThinIt.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-ThinIt.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-ThinIt.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-ThinIt.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-Light";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-Light.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-Light.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-Light.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-Light.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-LightIt";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-LightIt.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-LightIt.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-LightIt.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-LightIt.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-Regular";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-Regular.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-Regular.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-Regular.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-Regular.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-RegularIt";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-RegularIt.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-RegularIt.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-RegularIt.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-RegularIt.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-Bold";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-Bold.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-Bold.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-Bold.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-Bold.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-BoldIt";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-BoldIt.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-BoldIt.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-BoldIt.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-BoldIt.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-Semibold";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-Semibold.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-Semibold.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-Semibold.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-Semibold.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-SemiboldIt";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-SemiboldIt.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-SemiboldIt.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-SemiboldIt.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-SemiboldIt.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-Extrabld";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-Extrabld.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-Extrabld.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-Extrabld.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-Extrabld.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-ExtrabldIt";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-ExtrabldIt.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-ExtrabldIt.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-ExtrabldIt.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-ExtrabldIt.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-Black";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-Black.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-Black.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-Black.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-Black.woff") format("woff"); }
 
 @font-face {
   font-family: "ProximaNova-BlackIt";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/ProximaNova/ProximaNova-BlackIt.woff2") format("woff2"), url("./font/ProximaNova/ProximaNova-BlackIt.woff") format("woff"); }
+  src: url("./fonts/ProximaNova/ProximaNova-BlackIt.woff2") format("woff2"), url("./fonts/ProximaNova/ProximaNova-BlackIt.woff") format("woff"); }
 
 @font-face {
   font-family: "PlayfairDisplay-Black";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/PlayfairDisplay/PlayfairDisplay-Black.woff2") format("woff2"), url("./font/PlayfairDisplay/PlayfairDisplay-Black.woff") format("woff"); }
+  src: url("./fonts/PlayfairDisplay/PlayfairDisplay-Black.woff2") format("woff2"), url("./fonts/PlayfairDisplay/PlayfairDisplay-Black.woff") format("woff"); }
 
 @font-face {
   font-family: "PlayfairDisplay-BlackItalic";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff2") format("woff2"), url("./font/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff") format("woff"); }
+  src: url("./fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff2") format("woff2"), url("./fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff") format("woff"); }
 
 @font-face {
   font-family: "PlayfairDisplay-Bold";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/PlayfairDisplay/PlayfairDisplay-Bold.woff2") format("woff2"), url("./font/PlayfairDisplay/PlayfairDisplay-Bold.woff") format("woff"); }
+  src: url("./fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff2") format("woff2"), url("./fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff") format("woff"); }
 
 @font-face {
   font-family: "PlayfairDisplay-BoldItalic";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff2") format("woff2"), url("./font/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff") format("woff"); }
+  src: url("./fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff2") format("woff2"), url("./fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff") format("woff"); }
 
 @font-face {
   font-family: "PlayfairDisplay-Italic";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/PlayfairDisplay/PlayfairDisplay-Italic.woff2") format("woff2"), url("./font/PlayfairDisplay/PlayfairDisplay-Italic.woff") format("woff"); }
+  src: url("./fonts/PlayfairDisplay/PlayfairDisplay-Italic.woff2") format("woff2"), url("./fonts/PlayfairDisplay/PlayfairDisplay-Italic.woff") format("woff"); }
 
 @font-face {
   font-family: "PlayfairDisplay-Regular";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/PlayfairDisplay/PlayfairDisplay-Regular.woff2") format("woff2"), url("./font/PlayfairDisplay/PlayfairDisplay-Regular.woff") format("woff"); }
+  src: url("./fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff2") format("woff2"), url("./fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff") format("woff"); }
 
-html {
-  font-size: 16px; }
+@media (max-width: 1280px) {
+  html {
+    font-size: 16px; } }
+
+@media (min-width: 1280px) {
+  html {
+    font-size: calc( 0.0125 * 100vw + 0px); } }
 
 body {
   margin: 0;
@@ -271,7 +276,8 @@ svg {
   color: #979285; }
 
 .navbarWrapper {
-  background-color: rgba(85, 82, 76, 0.5); }
+  background-color: rgba(85, 82, 76, 0.5);
+  padding: 0 3%; }
 
 .navbar {
   font-size: 1rem;
@@ -369,12 +375,8 @@ svg {
 
 .header {
   font-size: 1rem;
-  padding: 2%;
   color: #fff;
-  text-align: center;
-  background-image: -webkit-radial-gradient(center, circle 15em, #564f4c 0%, rgba(86, 83, 76, 0) 100%);
-  background-image: -o-radial-gradient(center, circle 15em, #564f4c 0%, rgba(86, 83, 76, 0) 100%);
-  background-image: radial-gradient(circle 15em at center, #564f4c 0%, rgba(86, 83, 76, 0) 100%); }
+  text-align: center; }
 
 .header__title {
   font-size: 5.75em;
@@ -562,6 +564,7 @@ svg {
   -ms-flex-align: center;
   align-items: center; }
   .chefCook__authorAvatar {
+    width: 4.167em;
     margin: 1em; }
   .chefCook__authorFirtName, .chefCook__authorlastName {
     line-height: 1.25em;
@@ -666,6 +669,9 @@ svg {
   -webkit-box-shadow: 0 0 2em 0 #4b4b4b;
   box-shadow: 0 0 2em 0 #4b4b4b; }
 
+.slider__sliderControl {
+  margin: 0 -1em; }
+
 .rating {
   list-style: none;
   padding: 0;
@@ -685,7 +691,8 @@ svg {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
   .sliderControl > * {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
@@ -694,6 +701,9 @@ svg {
 .sliderControl__arrow {
   -ms-flex-negative: 1;
   flex-shrink: 1; }
+  .sliderControl__arrow svg {
+    width: 2em;
+    height: 2em; }
 
 .sliderControl__list {
   list-style: none;
@@ -702,8 +712,13 @@ svg {
   white-space: nowrap; }
 
 .sliderControl__ {
-  display: inline-block;
-  margin: 0 1em; }
+  display: inline-block; }
+  .sliderControl__ + .sliderControl__ {
+    margin-left: 1em; }
+
+.sliderControl__image {
+  width: 5.625em;
+  height: 5.625em; }
 
 .block3 {
   display: -webkit-box;
@@ -924,6 +939,9 @@ svg {
   right: 0.625em;
   overflow: hidden;
   z-index: 99; }
+  .jibaritoRecipe__image img {
+    min-width: 100%;
+    min-height: 100%; }
 
 .jibaritoRecipe__fullRecipe {
   font-size: 1.125em;
@@ -1016,7 +1034,7 @@ svg {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 2.5% 0%; }
+  padding: 8vh 3%; }
 
 .wrapper__header {
   background-image: url("./pictures/bg1.png");
@@ -1037,8 +1055,21 @@ svg {
     -ms-flex-negative: 1;
     flex-shrink: 1; }
   .wrapper__headerContent {
-    margin: auto;
-    width: 100%; }
+    padding: 8vh 3%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: -o-radial-gradient(center, circle 32em, #564f4c 0%, rgba(86, 83, 76, 0) 100%);
+    background-image: radial-gradient(circle 32em at center, #564f4c 0%, rgba(86, 83, 76, 0) 100%); }
 
 .wrapper__,
 .wrapper__header {
